@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap');
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+html::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'DM Sans', serif;
+}
+
+/* +++++++++++++++++++NAV BAR STYLING+++++++++++++++++++ */
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    align-items: center;
+    margin-top: .5rem;
+    padding-top: .5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.circleLogo {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .6rem;
+    background: linear-gradient(90deg, rgb(103, 237, 255) 0%, rgb(255, 202, 86) 100%);
+    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+.navItems,
+.navButtons {
+    display: flex;
+}
+
+.navItems li,
+.navButtons li {
+    list-style: none;
+    padding: .5rem;
+    color: #808080;
+    cursor: pointer;
+}
+
+.navItems li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.navItems li a:hover {
+    color: #fff;
+}
+
+.navButtons li:hover {
+    color: #fff;
+}
+
+.navButtons li:nth-child(3) {
+    background-color: #fff;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+    border-radius: .3rem;
+    border: 2px solid #fff;
+}
+
+.mobile-container {
+    display: none;
+}
+
+#hamBurgerMenu {
+    display: none;
+}
+
+
+/* +++++++++++++++++++NAV BAR STYLING+++++++++++++++++++ */
+
+
+/*++++++++++++++++++ Hero Section Starts ++++++++++++++++*/
+.header {
+    margin-top: 1vh;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    background: linear-gradient(92deg, rgba(52, 47, 255, 1) 0%, rgba(48, 209, 255, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+
+}
+
+.header2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+.header3 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 37, 0, 1) 0%, rgba(236, 255, 42, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+
+}
+
+
+/*++++++++++++++ Hero Section Buttons Styling ++++++++++++++*/
+
+.heroButtons {
+    margin-top: 1.8rem;
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    text-align: center;
+}
+
+.btntext {
+    font-size: 1.4rem;
+    color: #000;
+    padding: 1.1rem 3.7rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-left: 19.7vw;
+    transition: .3s;
+}
+
+.btntext:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#secBtn .btntext {
+    color: #000;
+    margin-left: 2rem;
+    border: 1px solid #fff;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 37, 0, 1) 0%, rgba(236, 255, 42, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+#heroInfo {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    font-weight: 100;
+    color: #808080;
+    margin-bottom: 5vh;
+}
+
+/*=================== Hero Section Ends=================== */
+
+/*===================  Section1 Starts=================== */
+
+section {
+    color: #fff;
+}
+
+.heading {
+    color: #fff;
+    text-transform: uppercase;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.sectionHeadingLine {
+    background: rgb(0, 132, 240);
+    background: linear-gradient(90deg, rgba(0, 132, 240, 1) 0%, rgba(0, 209, 218, 1) 99%);
+    width: .1rem;
+    height: 1rem;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+.circle {
+    height: 1rem;
+    width: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+    border-radius: 50%;
+    background: rgb(0, 132, 240);
+    background: linear-gradient(90deg, rgba(0, 132, 240, 1) 0%, rgba(0, 209, 218, 1) 99%);
+    text-align: center;
+    margin-left: -1.8vw;
+    color: #000;
+}
+
+.circle2,
+.line2 {
+    background: rgb(0, 70, 240);
+    background: linear-gradient(90deg, rgba(0, 70, 240, 1) 0%, rgba(255, 67, 242, 1) 99%);
+}
+
+.circle3,
+.line3 {
+    background: rgb(229, 255, 41);
+    background: linear-gradient(90deg, rgba(229, 255, 41, 1) 0%, rgba(255, 63, 0, 1) 99%);
+}
+
+.circle4,
+.line4 {
+    background: rgb(41, 154, 255);
+    background: linear-gradient(90deg, rgba(41, 154, 255, 1) 0%, rgba(255, 0, 1, 1) 99%);
+}
+
+.section1Heading {
+    display: flex;
+    margin-top: 15vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Open Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.icons {
+    height: 3rem;
+    margin-right: 2vw;
+}
+
+.section1Content {
+    margin-top: 5vh;
+}
+
+.section1Content h2 {
+    width: 50vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    opacity: .9;
+    font-weight: 100;
+}
+
+.break,
+.break2 {
+    display: none;
+}
+
+/*===================  Section1 Ends=================== */
+
+
+/*===================  Section2 Starts=================== */
+
+.section2Container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2Left {
+    width: 50vw;
+}
+
+.section2Left img {
+    width: 50vw;
+    border-radius: 1rem;
+}
+
+.section2Right {
+    width: 50vw;
+    height: 80%;
+    margin-left: 2vw;
+    padding-top: 10vh;
+}
+
+.section2Right span {
+    margin-left: 5vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section2Right h2 {
+    margin-top: 1rem;
+    margin-left: 5vw;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, rgba(0, 132, 240, 1) 0%, rgba(0, 209, 218, 1) 99%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items img {
+    height: 5rem;
+    margin-left: 5vw;
+}
+
+.items h5 {
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+}
+
+.itemContent {
+    font-size: 1.3rem;
+    margin: 1.8rem 0 1.8rem 6vw;
+    font-weight: 100;
+}
+
+/*===================  Section2 Ends=================== */
+
+
+.kontaktForm {
+    width: 60vw;
+    padding: 2rem;
+    display: block;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+
+}
+
+.kontaktForm h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: 'Inter', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+
+
+.reachUsForm {
+    text-align: center;
+}
+
+#email,
+#phoneNum,
+#name,
+#message {
+    width: 40vw;
+    height: 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.3rem;
+    border: 1px solid #fff;
+}
+
+.kontaktForm form #submit {
+    background-color: #fff;
+    color: #000;
+    width: 40vw;
+    height: 4rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid #808080;
+    font-size: 1.3rem;
+}
+
+.kontaktForm form #submit:hover {
+    background-color: #808080;
+    color: #fff;
+}

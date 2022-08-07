@@ -1,0 +1,503 @@
+@media (min-width:250px) and (max-width:480px) {
+
+    .mainNavContainer,
+    .tablet-container {
+        display: none;
+    }
+
+    .mobile-container {
+        max-width: 100vw;
+        margin: auto;
+        height: 9vh;
+        color: white;
+        display: block;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+    }
+
+    .topnav #myLinks {
+        display: none;
+        text-align: center;
+        background-color: #808080;
+    }
+
+    .topnav #myLinks a:hover {
+        background-color: #1d1d1d;
+    }
+
+    .navBtnMobile a {
+        background-color: black;
+        border: 2px solid #fff;
+    }
+
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-transform: capitalize;
+    }
+
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+
+    .topnav a:hover {
+        color: #fff;
+    }
+
+    .logo a {
+        background-color: transparent;
+        font-size: 1.5rem;
+        margin-left: -0.5rem;
+    }
+
+    .logo a:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+
+
+    .circleLogo {
+        margin-right: .1rem;
+        text-align: center;
+        justify-content: center;
+        margin-left: .5rem;
+    }
+
+
+    .header,
+    .header2,
+    .header3 {
+        font-size: 3.5rem;
+    }
+
+    .header {
+        margin-top: 5vh;
+    }
+
+    .heroButtons {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+
+    .btntext {
+        font-size: 1rem;
+        padding: .8rem 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: 10rem;
+
+    }
+
+    #secBtn .btntext {
+        margin-left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #heroInfo {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: .8rem;
+        margin-top: 2rem;
+        font-weight: 100;
+        color: #808080;
+        margin-bottom: 5vh;
+    }
+
+
+    .circle {
+        margin-left: -5.5vw;
+    }
+
+    .section1Heading {
+        font-size: .8rem;
+        width: 100vw;
+        display: block;
+        text-align: center;
+    }
+
+    .section1Content h2 {
+        width: 70vw;
+        font-size: .7rem;
+    }
+
+    .break,
+    .break2 {
+        display: block;
+        background-color: #fff;
+    }
+
+    .break {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .break2 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .icons {
+        height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .section2Container {
+        display: block;
+        text-align: center;
+        width: 100vw;
+    }
+
+
+    .section2Right {
+        width: 100vw;
+    }
+
+    .section2Left {
+        display: none;
+    }
+
+    .section2Right {
+        height: auto;
+        margin-left: auto;
+    }
+
+    .section2Right h2 {
+        margin-left: auto;
+        text-transform: capitalize;
+        font-size: 1.8rem;
+    }
+
+    .items {
+        display: block;
+
+    }
+
+    .items img {
+        height: 4rem;
+        margin-left: auto;
+        margin-top: 3rem;
+    }
+
+    .items h5 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .itemContent {
+        margin: 0 auto;
+        color: #808080;
+        width: 60vw;
+        font-size: .9rem;
+    }
+
+
+
+    .kontaktForm {
+        margin-top: 5vh;
+        border: none;
+    }
+
+    .kontaktForm h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #email,
+    #phoneNum,
+    #name,
+    #message {
+        width: 60vw;
+        height: 2.7rem;
+        border-radius: .4rem;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+
+    .kontaktForm form #submit {
+        width: 60vw;
+        height: 2.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: .5rem;
+        border: 1px solid #808080;
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-height:250px) and (max-width:480px) {
+
+    .mainNavContainer,
+    .tablet-container {
+        display: none;
+    }
+
+    .mobile-container {
+        max-width: 100vw;
+        margin: auto;
+        height: 9vh;
+        color: white;
+        display: block;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+    }
+
+    .topnav #myLinks {
+        display: none;
+        text-align: center;
+        background-color: #808080;
+    }
+
+    .topnav #myLinks a:hover {
+        background-color: #1d1d1d;
+    }
+
+    .navBtnMobile a {
+        background-color: black;
+        border: 2px solid #fff;
+    }
+
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        text-transform: capitalize;
+    }
+
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+
+    .topnav a:hover {
+        color: #fff;
+    }
+
+    .logo a {
+        background-color: transparent;
+        font-size: 1.5rem;
+        margin-left: -0.5rem;
+    }
+
+    .logo a:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+
+
+    .circleLogo {
+        margin-right: .1rem;
+        text-align: center;
+        justify-content: center;
+        margin-left: .5rem;
+    }
+
+
+    .header,
+    .header2,
+    .header3 {
+        font-size: 3.5rem;
+    }
+
+    .header {
+        margin-top: 5vh;
+    }
+
+    .heroButtons {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+
+    .btntext {
+        font-size: 1rem;
+        padding: .8rem 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: 10rem;
+
+    }
+
+    #secBtn .btntext {
+        margin-left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #heroInfo {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: .8rem;
+        margin-top: 2rem;
+        font-weight: 100;
+        color: #808080;
+        margin-bottom: 5vh;
+    }
+
+
+    .circle {
+        margin-left: -5.5vw;
+    }
+
+    .section1Heading {
+        font-size: .8rem;
+        width: 100vw;
+        display: block;
+        text-align: center;
+    }
+
+    .section1Content h2 {
+        width: 70vw;
+        font-size: .7rem;
+    }
+
+    .break,
+    .break2 {
+        display: block;
+        background-color: #fff;
+    }
+
+    .break {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .break2 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .icons {
+        height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .section2Container {
+        display: block;
+        text-align: center;
+        width: 100vw;
+    }
+
+
+    .section2Right {
+        width: 100vw;
+    }
+
+    .section2Left {
+        display: none;
+    }
+
+    .section2Right {
+        height: auto;
+        margin-left: auto;
+    }
+
+    .section2Right h2 {
+        margin-left: auto;
+        text-transform: capitalize;
+        font-size: 1.8rem;
+    }
+
+    .items {
+        display: block;
+
+    }
+
+    .items img {
+        height: 4rem;
+        margin-left: auto;
+        margin-top: 3rem;
+    }
+
+    .items h5 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .itemContent {
+        margin: 0 auto;
+        color: #808080;
+        width: 60vw;
+        font-size: .9rem;
+    }
+
+
+
+    .kontaktForm {
+        margin-top: 5vh;
+        border: none;
+    }
+
+    .kontaktForm h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #email,
+    #phoneNum,
+    #name,
+    #message {
+        width: 60vw;
+        height: 2.7rem;
+        border-radius: .4rem;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+
+    .kontaktForm form #submit {
+        width: 60vw;
+        height: 2.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: .5rem;
+        border: 1px solid #808080;
+        font-size: 1.1rem;
+    }
+
+}
